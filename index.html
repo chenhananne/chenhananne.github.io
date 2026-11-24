@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Han Chen, Economics PhD researcher at the University of Strathclyde.">
+  <title>Han Chen | Economics</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #fafbfd;
+      color: #243544;
+      font: 1rem/1.65 system-ui, sans-serif;
+    }
+    .wrap { width: min(46rem, calc(100% - 2.5rem)); margin-inline: auto; }
+    header { background: white; border-bottom: 1px solid #d5e0e7; }
+    header .wrap, nav { display: flex; align-items: center; flex-wrap: wrap; }
+    header .wrap {
+      justify-content: space-between;
+      gap: .5rem 1.5rem;
+      padding-block: 1rem;
+    }
+    nav { gap: .5rem 1.25rem; }
+    a { color: #195479; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid #195479; outline-offset: 4px; }
+    .name { font-weight: 750; text-decoration: none; }
+    section { padding-block: 2rem; border-bottom: 1px solid #d5e0e7; }
+    .intro { padding-top: clamp(2.5rem, 8vw, 5rem); }
+    h1, h2, h3 { margin: 0; line-height: 1.2; }
+    h1, h2 { font-family: Georgia, serif; color: #15364d; }
+    h1 { font-size: clamp(3rem, 9vw, 5rem); letter-spacing: -.04em; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.15rem; }
+    .affiliation { color: #495a68; margin-top: .45rem; }
+    article { margin-top: 1.5rem; }
+    article p { margin: .5rem 0 0; }
+    footer { color: #495a68; padding-block: 1rem 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="name" href="#home">Han Chen</a>
+      <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro" id="home">
+      <h1>Han Chen</h1>
+      <p class="affiliation">PhD Researcher in Economics · University of Strathclyde</p>
+      <p>My research is in environmental economics and international trade.
+        I use quantitative trade models to study how climate policies reshape
+        emissions, production, and trade across countries and supply chains.</p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <article>
+        <h3>Climate coalitions and carbon leakage</h3>
+        <p>How does the choice of new climate coalition members affect carbon
+          leakage, global emissions, and the incentives to join? This project
+          examines how border carbon adjustments shape those outcomes.</p>
+      </article>
+      <article>
+        <h3>Carbon border adjustment and manufacturing supply chains</h3>
+        <p>How do carbon costs pass from upstream producers to downstream
+          manufacturers? This project examines how the EU’s Carbon Border
+          Adjustment Mechanism and a potential downstream extension affect
+          manufacturing competitiveness and emissions.</p>
+      </article>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p>Tutorial teaching at the University of Strathclyde.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">Han Chen · University of Strathclyde</footer>
+</body>
+</html>
